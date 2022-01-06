@@ -1,0 +1,1224 @@
+* {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.homepagetext {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.homepagewhite {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+/* .homepagewhiteContact {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.homepagewhiteAbout {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.homepagewhiteDesign {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.homepagewhite-ie {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.homepagewhite-monograph {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.homepagewhite-wiki {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.homepagewhite-tot {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.homepagewhite-interviewvideo {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+	padding-bottom: 10%;
+} */
+
+.homepageblack {
+	background-color: black;
+	margin: 0;
+	background-image: url("../images/bgimage.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 40%;
+	position: relative;
+}
+
+@media screen and (max-width: 500px) {
+
+	/* .homepagewhiteDesign {
+		width: 100%;
+	}
+
+	.homepagewhite-ie {
+		width: 100%;
+	}
+
+	.homepagewhite-monograph {
+		width: 100%;
+	}
+
+	.homepagewhite-wiki {
+		width: 100%;
+	}
+
+	.homepagewhite-tot {
+		width: 100%;
+	}
+
+	.homepagewhite-interviewvideo {
+		width: 100%;
+	} */
+
+	.homepagewhite {
+		width: 100%;
+	}
+
+}
+
+.davidebianchi {
+	font-weight: 400;
+	margin-top: 110px;
+	position: fixed;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: calc(30px + 2vw);
+}
+
+.design {
+	font-weight: 400;
+	margin-top: 500px;
+	position: fixed;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: calc(30px + 2vw);
+}
+
+.navul {
+	text-align: center;
+	margin-top: 5%;
+	padding-left: 0;
+	padding-bottom: 7%;
+	margin-bottom: 0;
+}
+
+.navliabout {
+	display: inline-block;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: none;
+	font-size: 2vw;
+	color: black;
+}
+
+.navlidesign {
+	display: inline-block;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: none;
+	font-size: 2vw;
+	color: black;
+}
+
+.navlicontact {
+	display: inline-block;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: none;
+	font-size: 2vw;
+	color: black;
+}
+
+.navlidesign:hover {
+	color: #B792FF;
+	text-decoration: none;
+}
+
+.navliabout:hover {
+	color: #39C7FF;
+	text-decoration: none;
+}
+
+.navlicontact:hover {
+	color: #31E8C5;
+	text-decoration: none;
+}
+
+.davidebianchiinside {
+	text-align: center;
+	padding-top: 2%;
+	font-size: calc(2px + 2vw);
+	color: black;
+	margin-top: 0;
+}
+
+.pagetitledesign {
+	text-align: center;
+	/* margin-top: 10%; */
+	font-size: calc(1px + 1vw);
+	background-color: /* #7BCDFF */ #B792FF;
+	color: white;
+	font-weight: normal;
+}
+
+.pagetitleabout {
+	text-align: center;
+	/* margin-top: 10%; */
+	font-size: calc(1px + 1vw);
+	background-color: /* #C59BFF */ #39C7FF;
+	color: white;
+	font-weight: normal;
+}
+
+.pagetitlecontact {
+	text-align: center;
+	/* margin-top: 10%; */
+	font-size: calc(1px + 1vw);
+	background-color: /* #76E6D3 */ #31E8C5;
+	color: white;
+	font-weight: normal;
+}
+
+#contact {
+	margin-top: 0;
+	padding: .5% 0 .5% 0;
+}
+
+#about {
+	margin-top: 0;
+	padding: .5% 0 .5% 0;
+}
+
+#design {
+	margin-top: 0;
+	padding: .5% 0 .5% 0;
+}
+
+#contactinfo {
+	text-align: center;
+	margin-top: 5%;
+	font-size: calc(2px + 1vw);
+}
+
+.resume {
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 0;
+	font-size: calc(1px + 1vw);
+	color: #31E8C5;
+	font-weight: normal;
+	padding: .1% 0 .1% 0;
+}
+
+.resumeimage {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: .4vw solid #31E8C5;
+	padding: 0;
+}
+
+.dbimage {
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.abouttext {
+	margin: 2% 25% 2% 25%;
+	font-size: calc(1.5px + 1.2vw);
+	line-height: 130%;
+}
+
+#photogallery-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin-top: 5%;
+}
+
+#photogallery-container img{
+	width: 300px;
+	/*
+	border: #7BCDFF solid 2px;
+	padding: 5px;
+	*/
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	margin: 2%;
+}
+
+.blur {
+	filter: blur(.2em);
+}
+
+.designTextContainer {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	text-align: center;
+	bottom: 19em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.designText {
+	background-color: #B792FF;
+	/* padding: 2% 20% 2% 20%; */
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+	color: /* black */ white;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+	.box {
+		width: 350px;
+		height: 350px;
+		margin-top: 7%;
+	}
+
+	.designTextContainer {
+		width: 350px;
+		height: 350px;
+		bottom: 22em;
+	}
+
+	#photogallery-container img{
+		width: 350px;
+		/*
+		border: #7BCDFF solid 2px;
+		padding: 5px;
+		*/
+	}
+
+}
+
+#designnavbg {
+	background-image: url("../images/bgbg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 25%;
+	position: relative;
+}
+
+#contactnavbg {
+	background-image: url("../images/bgbg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 25%;
+	position: relative;
+}
+
+#aboutnavbg {
+	background-image: url("../images/bgbg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 25%;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+.a {
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: #B792FF;
+	text-decoration-thickness: .2em;
+	/* border-bottom: calc(1px + .3vh) solid #B792FF; */
+}
+
+.a:hover {
+	color: #B792FF;
+}
+
+.aContact {
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: #31E8C5;
+	text-decoration-thickness: .2em;
+	/* border-bottom: calc(1px + .3vh) solid #B792FF; */
+}
+
+.aContact:hover {
+	color: #31E8C5;
+}
+
+#interviewVideo {
+	width: 90%;
+}
+
+.interviewVideo {
+	text-align: center;
+}
+
+#catalogofinfluencesVideo {
+	width: 90%;
+}
+
+.catalogofinfluencesVideo {
+	text-align: center;
+	margin-top: 5%;
+}
+
+#fitappVideo {
+	width: 28%;
+}
+
+.fitappVideo {
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+
+	#fitappVideo {
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	#fitappVideo {
+		width: 70%;
+	}
+
+}
+
+.interviewVideoTitle {
+	text-align: center;
+	/* margin-top: 10%; */
+	font-size: calc(1px + 1vw);
+	color: #B792FF;
+	font-weight: normal;
+}
+
+.projectText {
+	margin: 5% 25% 2% 25%;
+	font-size: calc(1.5px + 1.2vw);
+	line-height: 130%;
+}
+
+.projectTextie {
+	margin: 0 25% 2% 25%;
+	font-size: calc(1.5px + 1.2vw);
+	line-height: 130%;
+}
+
+.projectTextcoi {
+	margin: 0 25% 2% 25%;
+	font-size: calc(1.5px + 1.2vw);
+	line-height: 130%;
+}
+
+.projectTextfitapp {
+	margin: 0 25% 2% 25%;
+	font-size: calc(1.5px + 1.2vw);
+	line-height: 130%;
+}
+
+.projectTextsfmoma {
+	margin: 0 25% 2% 25%;
+	font-size: calc(1.5px + 1.2vw);
+	line-height: 130%;
+}
+
+.resumeDownload {
+	margin-top: 3%;
+}
+
+#resumeDownload {
+	text-align: center;
+	margin: 1% 37% 1% 37%;
+	font-size: calc(1px + 1.2vw);
+	color: #31E8C5;
+	font-weight: normal;
+	padding: 1.5% 3% 1.5% 3%;
+	border: .4vw #31E8C5 solid;
+}
+
+#resumeDownload a {
+	text-decoration: none;
+	color: white;
+}
+
+#resumeDownload:hover {
+	background-color: #31E8C5;
+	color: white;
+}
+
+.back {
+	margin-top: 5%;
+}
+
+.backToDesign {
+	text-align: center;
+	margin: 0 45% 0 45%;
+	font-size: calc(1px + 1.2vw);
+	color: #B792FF;
+	font-weight: normal;
+	padding: 1% 1% 1% 1%;
+	border: .2vw #B792FF solid;
+}
+
+.backToDesign a {
+	text-decoration: none;
+	color: white;
+}
+
+.backToDesign:hover {
+	background-color: #B792FF;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container-monograph {
+  position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-monograph {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 26% 2% 26% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+ .next-monograph {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+ 	bottom: 3%;
+ 	left: 100%;
+  width: auto;
+  padding: 26% 2% 26% 2%;
+ 	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+ 	text-align: center;
+ 	vertical-align: middle;
+ }
+
+/* Position the "next button" to the right */
+/* .next-monograph {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-monograph:hover, .next-monograph:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-wiki {
+  position: relative;
+	margin-left: 12%;
+	margin-right: 12%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-wiki {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 32% 2% 26% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-wiki {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 32% 2% 26% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-wiki {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-wiki:hover, .next-wiki:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-tot {
+  position: relative;
+	margin-left: 8%;
+	margin-right: 8%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-tot {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 28% 2% 26% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-tot {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 28% 2% 26% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-tot {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-tot:hover, .next-tot:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-ie {
+  position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-ie {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 44% 2% 26% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-ie {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 44% 2% 26% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-ie:hover, .next-ie:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-typespecimens {
+  position: relative;
+	margin-left: 30%;
+	margin-right: 30%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-typespecimens {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 70% 4% 26% 4%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-typespecimens {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 70% 4% 26% 4%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-typespecimens:hover, .next-typespecimens:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-catalogofinfluences {
+  position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-catalogofinfluences {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 22% 1.8% 20% 1.8%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-catalogofinfluences {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 22% 1.8% 20% 1.8%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-catalogofinfluences:hover, .next-catalogofinfluences:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-tusc {
+  position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: black 1px solid;
+}
+
+/* Next & previous buttons */
+.prev-tusc {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 25% 1.8% 20% 1.8%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-tusc {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 25% 1.8% 20% 1.8%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-tusc:hover, .next-tusc:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-digitalart {
+  position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-digitalart {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 44% 3% 25% 3%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-digitalart {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 44% 3% 25% 3%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-digitalart:hover, .next-digitalart:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-shoes {
+  position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-shoes {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 44% 3% 25% 3%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-shoes {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 44% 3% 25% 3%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-shoes:hover, .next-shoes:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-vote {
+  position: relative;
+	margin-left: 6%;
+	margin-right: 6%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-vote {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 28% 2% 15% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-vote {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 28% 2% 15% 2%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-vote:hover, .next-vote:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+/* Slideshow container */
+.slideshow-container-wavestriptych {
+  position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+	/* border: black 5px solid; */
+}
+
+/* Next & previous buttons */
+.prev-wavestriptych {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	right: 100%;
+  width: auto;
+  padding: 45% 3% 40% 2.5%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.next-wavestriptych {
+	cursor: pointer;
+  position: absolute;
+  top: 2%;
+	bottom: 3%;
+	left: 100%;
+  width: auto;
+  padding: 45% 2.5% 40% 3%;
+	color: #B792FF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Position the "next button" to the right */
+/* .next-ie {
+  right: 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-wavestriptych:hover, .next-wavestriptych:hover {
+	color: white;
+  background-color: rgba(183,146,255,0.5);
+}
+
+
+/*
+ Caption text
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+*/
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f200;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+*/
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .5s;
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@media screen and (max-width: 500px) {
+
+	.slideshow-container-ie {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 5%;
+		text-align: center;
+		position: relative;
+	}
+
+}
