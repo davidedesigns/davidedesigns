@@ -422,6 +422,8 @@ a {
 
 .interviewVideo {
 	text-align: center;
+	width: 100%;
+	position: relative;
 }
 
 #catalogofinfluencesVideo {
@@ -431,6 +433,8 @@ a {
 .catalogofinfluencesVideo {
 	text-align: center;
 	margin-top: 5%;
+	width: 100%;
+	position: relative;
 }
 
 #fitappVideo {
@@ -439,6 +443,8 @@ a {
 
 .fitappVideo {
 	text-align: center;
+	width: 100%;
+	position: relative;
 }
 
 @media screen and (max-width: 800px) {
